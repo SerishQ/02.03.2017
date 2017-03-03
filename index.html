@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>02.03.2017</title>
+    </head>
+
+    <body>
+     <script>
+        function season(type){
+            if(type == "yaz"){
+                return ("3,4,5");
+            }else if(type == "yay"){
+                return ("6,7,8");
+            }else if(type == "payız"){
+                return ("9,10,11");
+            }else if(type == "qış"){
+                return ("12,1,2");
+            }else{
+                return(false);
+            }
+        } 
+        var a = season("yay");
+        if(a){
+            console.log(a);
+        } else {
+            console.log("wrong");
+        }
+     </script>
+    </body>
+</html>
