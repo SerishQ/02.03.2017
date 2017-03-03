@@ -6,23 +6,23 @@
     <body>
      <script>
         function season(type){
-            if(type == "yaz"){
+            if(type == "spring"){
                 return ("3,4,5");
-            }else if(type == "yay"){
+            }else if(type == "summer"){
                 return ("6,7,8");
-            }else if(type == "payız"){
+            }else if(type == "autumn"){
                 return ("9,10,11");
-            }else if(type == "qış"){
+            }else if(type == "winter"){
                 return ("12,1,2");
             }else{
                 return(false);
             }
         } 
-        var a = season("yay");
+        var a = season("winter");
         if(a){
             console.log(a);
         } else {
-            console.log("wrong");
+            console.log("false");
         }
      </script>
     </body>
